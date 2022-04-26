@@ -1,0 +1,26 @@
+.logindiv{
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+}
+label{
+    font-size: 25px;
+}
+input{
+    padding: 5px;
+    font-size: 25px;
+}
+a{
+    font-size: 20px;
+}
+button{
+    background-color: rgb(98, 201, 236);
+    border: 1px solid rgb(98, 201, 236);
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+button:hover{
+    cursor: pointer;
+    background-color:rgb(3, 127, 169) ;
+}

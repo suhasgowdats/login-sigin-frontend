@@ -18,7 +18,7 @@ function Otpverify() {
     async function verifySubmit(e) {
         e.preventDefault()
         let options = {
-            url: 'https://git.heroku.com/suhas-login-logout.git/optverification',
+            url: 'https://suhas-login-logout.herokuapp.com/optverification',
             method: "POST",
             headers: {
                 'Content-type': 'application/json'

@@ -23,7 +23,7 @@ function PwsVerify() {
        e.preventDefault()
        if(pwscChange.pws1===pwscChange.pws2){
         let options = {
-            url: 'https://git.heroku.com/suhas-login-logout.git/pwsverification',
+            url: 'https://suhas-login-logout.herokuapp.com/pwsverification',
             method: "POST",
             headers: {
                 'Content-type': 'application/json'

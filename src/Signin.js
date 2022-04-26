@@ -20,7 +20,7 @@ function Signin() {
   async function putData(e){
     e.preventDefault()
     let options={
-      url:'https://git.heroku.com/suhas-login-logout.git/signin',
+      url:'https://suhas-login-logout.herokuapp.com/signin',
       method:"POST",
       headers:{
         'Content-type':'application/json'
